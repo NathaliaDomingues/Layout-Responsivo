@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background:  #220000;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    font-family: font1;
+}
+
+
+
+.col{
+    background: #4b0202;
+    float: left;
+    width: 30%;
+    padding: 8px;
+    /* box-sizing tamanho da caixa- ajusta tudo que for colocado dentro da caixa independente do padding, margin e border */
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.price-box{
+    font-family: font1;
+    background: #c21b1b;
+    color: #ffffff;
+    /* para tirar o marcador */
+    list-style-type: none;
+    border: 1px solid #4b0202;
+    margin: 0;
+    padding: 0;
+}
+
+.price-box .header{
+    font-family: font1;
+    background: #4b0202;
+    color: #ffffff;
+    font: 25px;
+}
+
+.price-box .header.header-green{
+    background: #4b0202;
+}
+
+.price-box li{
+
+    padding: 20px;
+    border-bottom: 20px solid #c21b1b;
+    text-align: center;
+}
+
+.btn{
+    font-family: font1;
+    background: #4b0202;
+    border: 3px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    /* text-decoration none, para tirar o sublinhado do botão */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+@media(max-width: 760px){
+    .col{
+        width: 100%;
+    }
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+}
